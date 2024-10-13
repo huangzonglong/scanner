@@ -1,0 +1,21 @@
+{
+    "name": "huangzonglong/scanner",
+    "description": "测试",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Oreilly\\ModernPHP\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "huangzonglong"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    }
+}
